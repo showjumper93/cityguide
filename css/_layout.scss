@@ -1,0 +1,29 @@
+/* Layout.scss */
+
+@media screen and (min-width: $mobile) and (max-width: $desktop) {
+    
+    .row-no-gutter.gallery [class^="col-"] {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .gallery .col-3 {
+        width: 50%; 
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .col-2.thumb {
+        background-color: pink;
+        margin-left: $gutter/2;
+        margin-right: $gutter/2;
+        width: calc(33.33333333% - #{$gutter});
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .col-2.thumb {
+        width: calc(50% - #{$gutter});
+    }
+}

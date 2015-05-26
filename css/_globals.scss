@@ -1,0 +1,25 @@
+/* Globals.scss */
+
+@mixin body-font {
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin body-font-italic {
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@mixin body-font-bold {
+    font-family: "adobe-garamond-pro", "georgia", serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin headline-font {
+    font-family: "league-gothic", "verdana", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
